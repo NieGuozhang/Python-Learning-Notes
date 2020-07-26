@@ -1,0 +1,1 @@
+# 闭包练习def func(a, b):    c = 10    def inner_func():        s = a + b + c        print(s)    return inner_funcfun = func(1, 2)fun()

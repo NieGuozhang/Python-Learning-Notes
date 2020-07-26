@@ -1,0 +1,1 @@
+# 函数 和类里面定义的： 方法class Phone:    # 魔术方法之一：称作魔术方法 __名字__()    def __init__(self):  # init 初始的，初始化的        self.brand = 'xiaomi'        self.price = 4999    def call(self):        print('------>call')        print('价格:', self.price)p = Phone()

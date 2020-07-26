@@ -1,0 +1,1 @@
+"""socketserver：可以用来创建socket用来简化并发服务器socketserver可以实现和多个客户端通信（实现并发处理多个客户端请求的Socket服务端）它是在socket的基础上进行了一层封装，低层调用的还是socket流程：服务端接收客户端连接请求 -> 实例化一个请求处理程序 -> 根据服务器类和请求处理程序类，调用处理方法。服务器端：1、导入socketserver包2、自定义一个类，继承之BaseRequestHandler3、重写handle方法4、通过self.request跟客户端做交互5、通过TCPServer.allow_reuse_address = True允许地址端口复用6、创建服务器对象7、让服务器永远运行下去"""import socketserver

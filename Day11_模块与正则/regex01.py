@@ -1,0 +1,1 @@
+import re# 默认是贪婪的, 如果想将贪婪模式变成非贪婪模式，加?# 非贪婪的： 尝试匹配尽可能少的字符msg = 'abc123abc'result = re.match(r'abc(\d+?)', msg)print(result)

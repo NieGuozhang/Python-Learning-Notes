@@ -1,0 +1,1 @@
+def fun(n):    a = 1 if n < 2 else fun(n - 1) + fun(n - 2)    return aa = fun(5)print(a)

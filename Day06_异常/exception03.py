@@ -1,0 +1,1 @@
+# 抛出异常 raisedef register():    username = input('输入用户名：')    if len(username) < 6:        raise Exception('用户长度必须6位以上！')  # 手动扔异常    else:        print('输入的用户名是:', username)try:    register()except Exception as err:    print(err)    print('注册失败！')else:    print('注册成功')

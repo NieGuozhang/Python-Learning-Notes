@@ -1,0 +1,1 @@
+# 分组# 匹配数字0-100数字import ren = '010000'result = re.match(r'[1-9]?\d*', n)print(result)# 验证输入的邮箱： 163， 126， qq# (word|word|word) 区别 [abc]表示的是一个字母而不是单词email = '761529849@163.com'result = re.match(r'\w{5,20}@(163|126|qq)\.(com|cn)$', email)print(result)

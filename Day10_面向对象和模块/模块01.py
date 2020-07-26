@@ -1,0 +1,1 @@
+# 模块'''1.自定义模块2.使用系统一些模块导入模块：1. import 模块名    模块名.函数  模块名.变量 模块名.类2. from 模块名 import 变量|函数|类'''import calculate as callist = [4, 5, 6, 7, 8]result = cal.add(*list)print(result)print(cal.number)print(cal.Student)

@@ -1,0 +1,1 @@
+# 文件的复制'''原文件： ngz.jpg目标文件：ngz1.jpgwith 结合open使用的好处：可以帮助我们自动去释放资源'''with open('../Day04_函数/ngz.jpg', 'rb') as stream:    container = stream.read()  # 读取文件内容    with open('ngz1.jpg', 'wb') as wstream:        wstream.write(container)print('文件复制完成！')

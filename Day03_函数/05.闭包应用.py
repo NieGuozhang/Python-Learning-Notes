@@ -1,0 +1,1 @@
+# 闭包的应用# 闭包：'''    1、保存返回闭包时的状态（外层函数变量）'''# 闭包练习def func(a, b):    c = 10    def inner_func():        s = a + b + c        print(s)    return inner_funcfun = func(1, 2)fun1 = func(1, 2)fun()fun1()print(fun, fun1)

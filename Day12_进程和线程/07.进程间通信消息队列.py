@@ -1,0 +1,1 @@
+"""进程间通信， 消息队列Queue"""from multiprocessing import Queueq = Queue(5)q.put('A')q.put('B')q.put('C')q.put('D')q.put('E')print(q.full())# print(q.qsize())  # 在Mac OS上这个语句不能执行，Linux上没问题# q.put('F')# q.full() 判断队列是否满# q.empty()判断队列是否为空while not q.empty():    print(q.get())

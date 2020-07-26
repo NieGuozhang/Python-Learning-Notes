@@ -1,0 +1,1 @@
+def gen():    i = 0    while i<5:        temp = yield i        print(temp)        i +=1    return '没有更多的数据了'g = gen()# print(next(g))# print(next(g))# print(next(g))g.send(None)n1 = g.send('hehe')print(n1)n2 = g.send('haha')print(n2)

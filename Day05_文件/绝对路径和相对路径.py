@@ -1,0 +1,1 @@
+# ../表示当前文件的上一级import osr = os.path.isabs('ngz.jpg')print(r)path = os.path.abspath(__file__)r1 = os.path.join(path, 'ngz.jpg')print(os.path.isabs(r1))
