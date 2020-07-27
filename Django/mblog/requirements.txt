@@ -1,5 +1,5 @@
 asgiref==3.2.7
-Django==2.0
+Django==2.2.13
 django-bootstrap3==12.1.0
 django-markdown-deux==1.0.5
 markdown2==2.3.9
